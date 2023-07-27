@@ -55,29 +55,6 @@ const products = [
     // More products...
 ]
 
-{/**
-    const [product, setProducts] = useState(products);
-
-    function handleAddClick(productId) {
-        setProducts((prevProducts) =>
-            prevProducts.map((product) =>
-                product.id === productId ? { ...product, quantity: product.quantity + 1 } : product
-            )
-        );
-    }
-
-    function handleRemoveClick(productId) {
-        setProducts((prevProducts) =>
-            prevProducts.map((product) =>
-                product.id === productId && product.quantity > 0
-                    ? { ...product, quantity: product.quantity - 1 }
-                    : product
-            )
-        );
-    }
-
-     */}
-
 export default function Galery1() {
     const [productQuantities, setProductQuantities] = useState(products.map(() => 0));
 
@@ -138,7 +115,7 @@ export default function Galery1() {
                                     </button>
                                 </div>
                                 <div className='pt-4 flex justify-around border-slate-700'>
-                                <p className="p-2 flex items-center  text-xl">
+                                <p id = { `producto-Individual-${product.id}`} className="p-2 flex items-center  text-xl">
                                     Agregados: {productQuantities[product.id - 1]}
                                 </p>
                                 </div>

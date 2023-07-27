@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
 import { Link, NavLink } from 'react-router-dom';
@@ -8,18 +8,23 @@ import logoempresa from "../../assets/imgs/logo_starteva.png";
 import logouser from "../../assets/icons/user_logo_cat.gif";
 
 const navigation = [
-    { name: 'Nostros', href: '#', current: true },
+    { name: 'Nosotros', href: '#', current: true },
     { name: 'Servicios', href: '#', current: false },
     { name: 'Noticias', href: '#', current: false },
     { name: 'Portal Docente', href: '#', current: false },
     { name: 'Contacto', href: '#', current: false },
 ]
 
+
+//Llamado de elementos del navegador de los productos
+
+
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
 export default function Navbar() {
+    
     return (
         <Disclosure as="nav" className="bg-gray-900" >
             {({ open }) => (
@@ -67,11 +72,13 @@ export default function Navbar() {
 
                                 <button
                                     type="button"
-                                    className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                    className="rounded-full bg-gray-800 p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                                 >
                                     <span className="sr-only">Tu carrito de Compra</span>
                                     <ShoppingCartIcon className="h-7 w-7 inline" aria-hidden="true" />
-                                    <p className="text-gray-100 text-right inline p-2">10</p>
+                                    
+                                    {/**Contador de elementos agregados al carro */}
+                                    <p className="text-gray-100 text-right inline p-4"></p>
                                 </button>
 
                                 {/* Profile dropdown */}
