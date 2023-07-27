@@ -17,7 +17,7 @@ const products = [
         imageSrc: examen20unica,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$1.500',
-        item: '20 item',
+        item: '20 items',
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const products = [
         imageSrc: examen30unica,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$2.000',
-        item: '30 item',
+        item: '30 items',
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const products = [
         imageSrc: examen20multiple,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$2.500',
-        item: '20 item',
+        item: '20 items',
     },
     {
         id: 4,
@@ -44,7 +44,7 @@ const products = [
         imageSrc: examen30multiple,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$3.000',
-        item: '30 item',
+        item: '30 items',
     },
 
     // More products...
@@ -83,7 +83,7 @@ export default function Galery1() {
                                 <button className="py-2 px-4 bg-gray-900 text-white font-semibold rounded-3xl shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Agregar</button>
                                 <button className="py-2 px-4 bg-gray-900 text-white font-semibold rounded-3xl shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Eliminar</button>
                             </div>
-                            <p className='pt-4 flex justify-around '> Cantidad </p>
+                            <p className='pt-4 flex justify-around'> Cantidad </p>
 
                         </div>
                     ))}
