@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c280171e.css",
-    "main.js": "/static/js/main.1281258c.js",
+    "main.css": "/static/css/main.9db2ed8b.css",
+    "main.js": "/static/js/main.532288a0.js",
     "static/js/787.17c0b8c2.chunk.js": "/static/js/787.17c0b8c2.chunk.js",
     "static/media/nubesbackground.png": "/static/media/nubesbackground.c766a8fc31b93116472f.png",
     "static/media/examen20multiplex2.png": "/static/media/examen20multiplex2.77426a40dce6c2093e1a.png",
@@ -14,12 +14,12 @@
     "static/media/user_logo_cat.gif": "/static/media/user_logo_cat.5a5bb37c0d52fcc4c755.gif",
     "static/media/logo_starteva.png": "/static/media/logo_starteva.71af1cc9be89702d5f26.png",
     "index.html": "/index.html",
-    "main.c280171e.css.map": "/static/css/main.c280171e.css.map",
-    "main.1281258c.js.map": "/static/js/main.1281258c.js.map",
+    "main.9db2ed8b.css.map": "/static/css/main.9db2ed8b.css.map",
+    "main.532288a0.js.map": "/static/js/main.532288a0.js.map",
     "787.17c0b8c2.chunk.js.map": "/static/js/787.17c0b8c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c280171e.css",
-    "static/js/main.1281258c.js"
+    "static/css/main.9db2ed8b.css",
+    "static/js/main.532288a0.js"
   ]
 }
